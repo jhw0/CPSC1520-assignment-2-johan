@@ -1,0 +1,14 @@
+/* our custom CSS file*/ 
+.sort-indicator {
+    margin-left: 5px;
+  }
+  
+  .sort-asc::after {
+    content: '▲';
+  }
+  
+  .sort-desc::after {
+    content: '▼';
+  }
+
+  
